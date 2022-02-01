@@ -8,7 +8,6 @@ public class HelloWordController {
 
 	@GetMapping("/hello")
 	public String helloMessage() {
-
-		return "Welcome To Spring Boot Application !!!!! Using Jenkin CICD   tools";
+		return "Welcome To Spring Boot Application !!!!!";
 	}
 }
